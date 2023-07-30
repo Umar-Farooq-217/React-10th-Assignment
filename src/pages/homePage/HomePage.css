@@ -1,0 +1,150 @@
+
+
+
+
+
+.box{
+    background-color: white;
+    align-items: center;
+   margin:30px ;
+   height: 140px;
+}
+.inbox{
+    background-color:rgba(60,123,203,255) ;
+    margin: 30px ;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+    top: 25px;
+    
+
+}
+.input1{
+    background-color: white;
+    width: 70%;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    margin-left: 5%;
+}
+.button{
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    position: relative;
+    bottom: 10px;
+    width: 25%;
+    margin: 5%;
+    color: rgb(127, 127, 240);
+}
+.box2{
+    background-color: white;
+    margin: 30px;
+    height: 610px;
+} .inbox2{
+    background-color:rgba(60,123,203,255) ;
+    margin: 30px;
+
+   
+    /* position: relative;
+    top: 24px; */
+   
+   
+
+   
+}
+.input2{
+    width: 90%;
+    background-color: white;
+    font-size: 31px;
+ position: relative;
+ top: 8px;
+
+
+}
+.edit{
+    font-size: 31px;
+    border: none;
+    width: 100px;color: rgb(127, 127, 240);
+    background-color: white;
+    margin: 15px;
+}
+.delete{
+    font-size: 31px;
+    border: none;
+    width: 120px;color: rgb(127, 127, 240);
+    background-color: white;
+}
+.mainapp{
+    height: 1000px;
+}
+
+
+@media (max-width:790px) {
+    .inbox{
+        display: block;
+        text-align: center;
+        height: 150px;
+      
+    }
+    .box{
+        height: 210px;
+    }
+    .box2{
+        height: 930px;
+    }
+    .button{
+        width: 50%;
+        font-size: 20px;
+    }
+    .input1{
+        width: 90%;
+        margin: auto;
+    }
+.input2{
+    display:inline-block ;
+    width: 100%;
+    margin: auto;
+}
+.inbox2{
+    display: flex;
+  flex-wrap: wrap;
+   height: 700px;
+}
+.edit{
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+}
+.delete{
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+   
+ width: 80%;
+ position: relative;
+ right: 45px;
+   
+}
+.mainapp{
+    height: 1600px;
+}
+
+
+
+
+
+}
